@@ -1,0 +1,26 @@
+.button-group {
+  display: flex;
+  
+  .button {
+    flex: 1;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #919191;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #111;
+    
+    &.normal {
+      background-color: #3f6bff;
+      color: #fff;
+    }
+    
+    &.danger {
+      background-color: #a82507;
+      color: #fff;
+    }
+  }
+}

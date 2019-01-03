@@ -1,0 +1,46 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for react starter",
+  "main": "src/components/App.js",
+  "scripts": {
+    "build:prod": "webpack-cli --config conf/webpack.prod.conf.js",
+    "dev": "webpack-dev-server --config conf/webpack.dev.conf.js --hot --inline",
+    "start": "npm run dev",
+    "lint": "eslint --ext .js src"
+  },
+  "author": "Heebum Kwak <heebum.kwak@linecorp.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-react": "^7.12.1",
+    "eslint-plugin-standard": "^3.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1"
+  }
+}
