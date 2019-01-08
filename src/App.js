@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
-import Routes from '@/components/Routes'
+import Routes from '@/Routes'
 import AppAction from '@/store/app/AppAction'
 import Navigation from '@/components/Navigation'
 

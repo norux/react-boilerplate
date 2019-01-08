@@ -6,7 +6,7 @@ import { Provider } from 'react-redux'
 import { BrowserRouter } from 'react-router-dom'
 import { createStore } from 'redux'
 
-import App from '@/components/App'
+import App from '@/App'
 import reducers from '@/store/Reducers'
 
 const store = createStore(reducers)
