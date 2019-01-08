@@ -1,8 +1,8 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
-import Home from '@/components/Home'
-import Counter from '@/components/Counter'
+import Home from '@/pages/Home'
+import Counter from '@/pages/Counter'
 
 export default (
   <Switch>

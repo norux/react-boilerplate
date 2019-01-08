@@ -1,4 +1,4 @@
-import { SET_VERSION } from '../types'
+import { SET_VERSION } from '@/store/types'
 
 const initState = {
   version: null
